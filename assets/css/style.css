@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  color: #e2e4e6;
+  margin: 0;
+  background-image:url('../img/hojitas.jpg');
+font-family: 'Handlee', cursive;
+}
+
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.hero-section {
+  width: auto;
+  height: 500px;
+  text-align: center;
+  background-image: url('../img/foto.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Shadows Into Light', cursive;
+  color: saddlebrown;
+}
+.textospequeños {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+.textogeneral{
+  margin: 5%;
+}
+h2{
+}
+hr{
+  /* margin-top: 0.5em;
+  margin-bottom: 0.5;
+  margin-left: 10%;
+  border-right: 10%; */
+  border-width: 1px;
+  color: white;
+  background-color: white;
+  height: 1px;
+  text-align: justify;
+}
+.trabajos{
+/* display: flex;
+justify-content: center; */
+margin: 5%;
+padding: 10%;
+}
+.mistrabajos{
+  height: 350PX;
+  background-color: #59c3b5;
+}
+.textoicono{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5%;
+height: 60px;
+}
+i{
+  font-size: 318%;
+  margin: 3%;
+}
+.iconos{
+  display: flex;
+}
+.texto{
+  display: flex;
+  justify-content: center;
+}
+
+.card-deck{
+  display: inline-block;
+  margin-top: 4%;
+}
+
+.blog .carousel-indicators {
+left: 0;
+top: auto;
+bottom: -40px;
+
+}
+
+.blog .carousel-indicators li {
+background: #a3a3a3;
+border-radius: 100%;
+width: 20px;
+height: 2px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
